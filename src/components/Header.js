@@ -40,7 +40,7 @@ const Header = () => {
             <Link to="/About" className="links" >About us</Link>
           </li>
           <li>
-            <Link to="/Grocery" className="links" >About us</Link>
+            <Link to="/Grocery" className="links" >Grocery</Link>
           </li>
           <li>Cart</li>
           <button className="login"

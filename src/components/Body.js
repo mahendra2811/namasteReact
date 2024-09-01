@@ -67,10 +67,9 @@ const Body = () => {
             // console.log(searchText) ; 
             const filteredRestaurant =  listofRestaurent.filter(
               (res)=>res.info.name.toLowerCase().includes(searchText.toLowerCase() ) );
-
               setFilteredRestaurant(filteredRestaurant);
-          }} 
-          >
+            }} 
+            >
              Search
           </button> 
         </div>
@@ -80,10 +79,11 @@ const Body = () => {
           onClick={() => {
             // filter logic lagana ha 
             const filteredList = listofRestaurent.filter(
-              (res) => res.info.cuisinesavgRatingString > 4
+              (res) => res.info.avgRating > 4.5
             );
+            // console.log("restaurent is filtered fopr rating ");
             setlistOfRestaurent(filteredList);
-            // console.log(filteredList);
+            console.log(filteredList);
           }}
         >
           Top Rated Restaurants
