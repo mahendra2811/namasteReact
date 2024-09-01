@@ -1,0 +1,120 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width: 100px;
+}
+.nav-items > ul {
+    font-size: 19px;
+    display: flex;
+    list-style-type: none;
+    padding: 0px , 20px;
+    
+}
+.nav-items > ul > li {
+    padding: 10px;
+    margin:10px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card{
+    padding: 6px;
+    width: 200px;
+    /* height: 380px; */
+    background-color: beige;
+    
+}
+.res-card:hover{
+    background-color: beige;  
+    cursor: pointer;
+    border: 1px solid black;
+    
+    
+}
+.search{
+    padding: 10px;
+}
+.res-logo{
+    width: 100%;
+}
+.login{
+    cursor: pointer;
+    /* padding: 5px auto; */
+    margin: 10px;
+    border-radius: 10%;
+
+}
+.login:hover{
+    background-color: darkgray ;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    margin: 20px;
+    width: 200px ;
+    height: 150px;
+    background-color: #f0f0f0;
+    
+}
+
+.filter {
+    display: flex;
+    gap: 20px;
+    margin: 30px 20px;
+    justify-content: center;
+  }
+  
+  .search {
+    display: flex;
+    width: 40%;
+  }
+  
+  .search input {
+    width: 100%;
+    box-sizing: border-box;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #aabcca;
+    border-right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    padding: 14px 15px 14px 20px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.08);
+  }
+  
+  .search button,
+  .filter-btn {
+    color: #fff;
+    cursor: pointer;
+    background-color: green;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: none;
+    margin-left: -4px;
+    padding: 15px 22px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.08);
+  }
+  
+  .filter-btn {
+    border-radius: 5px;
+  }
+  
+  .search button:hover,
+  .filter-btn:hover {
+    background-color: #09a909;
+  }
+  .user-card{
+    padding: 26px;
+    width: 90%;
+    /* height: 380px; */
+    border: 2px solid black;
+    margin: 10px;
+  }

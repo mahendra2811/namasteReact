@@ -1,0 +1,28 @@
+.dino-game-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dino-game-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .dino-game-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  #dinoCanvas {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .instructions {
+    color: #555;
+    font-size: 14px;
+  }
+  
